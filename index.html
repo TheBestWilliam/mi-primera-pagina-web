@@ -1,47 +1,103 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web</title>
+    <title>Mi Portafolio Personal</title>
 </head>
+<style>
+        /* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header, footer, section {
+    padding: 20px;
+}
+
+/* Estilos de encabezado */
+header {
+    background-color: #F2A400;
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Estilos de secciones */
+section {
+    background-color: #D2B7;
+    margin-bottom: 20px;
+    /* Estilos de la cabecera */
+.cabecera-imagen {
+    width: 200px; /* Cambia este valor al ancho deseado */
+    height: auto; /* Para mantener la proporción de aspecto */
+}
+
+}
+
+h2 {
+    margin-top: 0;
+}
+
+/* Estilos de habilidades */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilos de enlaces */
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+    </style>
 <body>
     <header>
-        <h1>Bienvenido a Mi Página Web</h1>
+        <h1>Mi Nombre</h1>
     </header>
     
-    <nav>
+    <section id="sobre-mi">
+        <img src="https://images.unsplash.com/photo-1526635090919-b5d79657c5a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80" alt="Imagen de Cabecera">
+        <h2>Sobre Mí</h2>
+        <p>Soy [Tu Nombre], un [tu profesión o título] apasionado por [una breve descripción de tu pasión o enfoque]. Con un ojo para el detalle y la creatividad, me dedico a [lo que haces, por ejemplo: diseño gráfico, desarrollo web, ilustración, etc.].</p>
+        <!-- Más información sobre ti -->
+    </section>
+    
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <!-- Lista de proyectos con descripciones e imágenes -->
+    </section>
+    
+    <section id="habilidades">
+        <h2>Habilidades</h2>
         <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="#">Servicios</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li>Diseño gráfico</li>
+            <li>Desarrollo web</li>
+            <li>Ilustración</li>
+            <!-- Otras habilidades -->
         </ul>
-    </nav>
+    </section>
     
-    <main>
-        <section>
-            <h2>Acerca de Nosotros</h2>
-            <p>Somos una empresa dedicada al rubro academico de servicios empresariales con fines de lucro pensado en la organizaciòn de bienes peruanos </p>
-        </section>
-        
-        <section>
-            <h2>Nuestros Servicios</h2>
-            <ul>
-                <li>Servicio 1</li>
-                <li>Servicio 2</li>
-                <li>Servicio 3</li>
-            </ul>
-        </section>
-        
-        <section>
-            <h2>Contacto</h2>
-            <p>Puedes ponerte en contacto con nosotros en...</p>
-        </section>
-    </main>
-    
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Si deseas ponerte en contacto conmigo, puedes enviarme un correo electrónico a <a href="mailto:tuemail@example.com">tuemail@example.com</a>.</p>
+        <!-- Formulario de contacto u otra información de contacto -->
+    </section>
+
     <footer>
-        <p>&copy; 2023 Mi Página Web. Todos los derechos reservados.</p>
+        <p>&copy; 2023 [Tu Nombre]. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
